@@ -1,5 +1,11 @@
-.header {
 
+.header {
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    padding: 92px 50px;
+    font-family: Raleway sans-serif;
+    color:black
+    background-color: aqua; /* Фон для наглядности шапки */
 }
 
 .header_menu {
@@ -7,10 +13,10 @@
 }
 
 .header_logo {
-
+    
 }
 
-.header_contacts {
+.header_address {
 
 }
 
