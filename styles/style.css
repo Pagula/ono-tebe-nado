@@ -65,29 +65,40 @@
     max-width: 237px;
 }
 
+main {
+    display: block;
+}
+
 .cover {
+   position: relative;
+   padding: 160px 50px 50px;
+   background-image: url(../images/cover.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+.cover_title {
+    margin-bottom: 135px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     position: relative;
-    padding: 165px 50px 50px 50px;
-    background-image: url(../images/cover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+
 }
 
 .overlay {
-    z-index: 0;
+    position: absolute;
+    background-color: #000000;
+    inset: 0;
 }
 
-.cover_title {
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 100px;
-    row-gap: 25px;
-    position: relative;
-    z-index: 1;
-    letter-spacing: 0.3em;
-}
 
 .aligned-text {
     display: block;
