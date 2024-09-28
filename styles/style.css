@@ -51,7 +51,7 @@
 
 }
 
-.address{
+.address {
     display: block;
     font-size: 18px;
     height: 24px;
@@ -70,12 +70,13 @@ main {
 }
 
 .cover {
-   position: relative;
-   padding: 160px 50px 50px;
-   background-image: url(../images/cover.jpg);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+    position: relative;
+    padding: 160px 50px 50px;
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 
 
@@ -90,13 +91,15 @@ main {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.3em;
+    z-index: 2;
 
 }
 
 .overlay {
     position: absolute;
-    background-color: #000000;
+    background-color: #00000060;
     inset: 0;
+    z-index: -1;
 }
 
 
@@ -112,4 +115,12 @@ main {
 .aligned-text_right {
     text-align: right;
     line-height: 1;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0em;
 }
