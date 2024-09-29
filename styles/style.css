@@ -97,7 +97,7 @@ main {
 
 .overlay {
     position: absolute;
-    background-color: #00000060;
+    background-color: #0000006e;
     inset: 0;
     z-index: -1;
 }
@@ -123,4 +123,20 @@ main {
 
 .no-letter-spacing {
     letter-spacing: 0em;
+}
+
+.cover_description{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.cover_description-text {
+    line-height: 28px;
+
+
+}
+
+.bet-button {
+    
 }
