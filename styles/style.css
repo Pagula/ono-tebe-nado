@@ -6,7 +6,7 @@
 .header {
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
-    padding: 92px 24px 96px;
+    padding: 92px 50px 92px;
     align-items: center;
 }
 
@@ -154,7 +154,7 @@ main {
 }
 
 .lots {
-    padding: 179px 25px 0;
+    padding: 169px 22px 0;
 
 }
 
@@ -169,7 +169,7 @@ main {
 .lots__card-list {
     display: flex;
     padding-top: 27px;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     gap: 25px;
     list-style: none;
 }
