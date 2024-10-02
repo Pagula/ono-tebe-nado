@@ -28,7 +28,12 @@
     white-space: nowrap;
 }
 
-.header__link_active {   /*Я почитал про псевдоклассы но пока это сложно в голове уложить  */
+.header__link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.header__link_active {   
     text-decoration: none;
 }
 
@@ -53,6 +58,11 @@
     font-style: normal;
     line-height: 24px;
     text-underline-position: under;
+}
+
+.address:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 .address-text {
@@ -145,6 +155,11 @@ main {
     z-index: 2;
 }
 
+.bet-button:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 .lots {
     padding: 180px 18px 0;
 }
@@ -188,6 +203,12 @@ main {
 .card-link {
     text-decoration: none;
 }
+
+.card-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
 }
@@ -221,6 +242,11 @@ main {
 .lots__look-more-link {
     padding: 30px 102px 2px 40px;
     font-size: 20px;
+}
+
+.lots__look-more-link:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 .about {
@@ -295,6 +321,11 @@ main {
 
 .footer__menu-link {
     font-size: 18px;
+}
+
+.footer__menu-link:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 .footer__menu-link_active {
