@@ -26,9 +26,10 @@
 .header__link {
     font-size: 18px;
     white-space: nowrap;
+    цуцуавуа
 }
 
-.header__link_active {
+.header__link_active {   /*Я почитал про псевдоклассы но пока это сложно в голове уложить  */
     text-decoration: none;
 }
 
