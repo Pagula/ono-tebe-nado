@@ -28,11 +28,9 @@
     white-space: nowrap;
 }
 
-
 .header__link_active {
     text-decoration: none;
 }
-
 
 .header__logo {
     display:block;
@@ -79,7 +77,6 @@ main {
     height: 757px;
 }
 
-
 .cover__title {
     margin-bottom: 135px;
     color: #fff;
@@ -92,7 +89,6 @@ main {
     text-transform: uppercase;
     letter-spacing: 0.3em;
     z-index: 2;
-
 }
 
 .overlay {
@@ -101,7 +97,6 @@ main {
     inset: 0;
     z-index: 0;
 }
-
 
 .aligned-text {
     display: block;
@@ -130,7 +125,6 @@ main {
     justify-content: flex-end;
     align-items: center;
     gap: 80px;
-    
 }
 
 .cover__description-text {
@@ -154,7 +148,6 @@ main {
 
 .lots {
     padding: 170px 20px 0;
-
 }
 
 .lots__heading {
@@ -226,7 +219,6 @@ main {
     color: #fff;
     z-index: 2;
     text-transform: uppercase;
-
 }
 
 .card__text {
@@ -263,7 +255,6 @@ main {
     height: 240px;
     background-color: black;
     border-radius: 50%;
-
 }
 
 .about__logo-image {
@@ -315,7 +306,6 @@ main {
 
 .footer__menu-link {
     font-size: 18px;
-
 }
 
 .footer__menu-link_active {
