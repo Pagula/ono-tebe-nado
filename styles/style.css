@@ -26,7 +26,6 @@
 .header__link {
     font-size: 18px;
     white-space: nowrap;
-    цуцуавуа
 }
 
 .header__link_active {   /*Я почитал про псевдоклассы но пока это сложно в голове уложить  */
@@ -321,4 +320,9 @@ main {
 .footer__social-icon {
     object-fit: contain;
     object-position: top;
+}
+
+.class {
+
+    
 }
