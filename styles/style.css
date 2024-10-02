@@ -45,8 +45,6 @@
 
 .header__address {
     justify-self: end;
-    
-
 }
 
 .address {
@@ -147,7 +145,7 @@ main {
 }
 
 .lots {
-    padding: 170px 20px 0;
+    padding: 180px 18px 0;
 }
 
 .lots__heading {
