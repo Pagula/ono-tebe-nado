@@ -67,7 +67,7 @@
 
 .address-text {
     font-size: 18px;
-    height: 49px;
+    font-style: normal;
     max-width: 237px;
 }
 
@@ -183,7 +183,7 @@ main {
 
 .lots__card-list-item {
     width: 334px;
-    height: 563px;
+    min-height: 563px;
     top: 74px;
     flex-grow: 1;
 }
